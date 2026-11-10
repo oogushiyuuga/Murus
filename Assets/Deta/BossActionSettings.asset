@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c0125020559468280c62705e21976b, type: 3}
+  m_Name: BossActionSettings
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 8929644541136703727, guid: d238f027236ba4348abfbec04fae35fd, type: 3}
+  shootSound: {fileID: 8300000, guid: 49ab6271772ce4e5a89f568c5f0ff2fb, type: 3}
+  shootCooldown: 1
+  minShootCount: 3
+  maxShootCount: 6
+  shootAnimDuration: 0.5
+  flamethrowerEffect: {fileID: 7078338899630725178, guid: 935ad5d03ea884e66a4caf8bbfc6605c, type: 3}
+  flameAoEWarningPrefab: {fileID: 2018667642037894489, guid: 5035db9cd5a9d488798b1ac25c61c2a1, type: 3}
+  flamethrowerDuration: 3
+  flameRange: 10
+  flameRadius: 3.5
+  flameDamage: 5
+  damageTickRate: 0.2
+  warningDuration: 1
+  groundFirePrefab: {fileID: 2183429175636908644, guid: 9349c024e5e70497f8f1401435f781cd, type: 3}
+  floorLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  groundFireDuration: 5
+  groundFireDamage: 5
+  minSpawnInterval: 0.2
+  lastGroundFireSpawnTime: 10.221297
+  stompEffect: {fileID: 7106703196796299956, guid: b454807c052634cb3a63f7dc5bc6aefd, type: 3}
+  stompAoEWarningPrefab: {fileID: 6777378502807429588, guid: a896efeb8772d4d8180c0c26d68c85ae, type: 3}
+  stompSound: {fileID: 8300000, guid: b97481966d0134c10adacec6825399b9, type: 3}
+  stompRange: 8
+  stompAoEForwardOffset: 3
+  stompDamage: 5
+  stunDuration: 1
+  stompAnimDuration: 1
+  stompShakeForce: 2
+  stompHitStopDuration: 0.1
+  moveSpeed: 10
+  movingStateTimer: 4.639986
